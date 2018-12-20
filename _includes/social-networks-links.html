@@ -276,4 +276,40 @@
   </li>
 {%- endif -%}
 
+{%- if site.social-network-links.zhihu -%}
+<li class="list-inline-item">
+  <a href="https://www.zhihu.com/people/{{ site.social-network-links.zhihu }}" title="ZhiHu">
+    <span class="fa-stack fa-lg" aria-hidden="true">
+      <i class="fas fa-circle fa-stack-2x"></i>
+      <i class="fab fa-zhihu fa-stack-1x fa-inverse"></i>
+    </span>
+    <span class="sr-only">ZhiHu</span>
+  </a>
+</li>
+{%- endif -%}
+
+{%- if site.social-network-links.qq -%}
+<li class="list-inline-item">
+  <a href="/assets/img/{{ site.social-network-links.qq }}" title="QQ">
+  <span class="fa-stack fa-lg" aria-hidden="true">
+    <i class="fas fa-circle fa-stack-2x"></i>
+    <i class="fab fa-qq fa-stack-1x fa-inverse"></i>
+  </span>
+    <span class="sr-only">QQ</span>
+  </a>
+</li>
+{%- endif -%}
+
+{%- if site.social-network-links.wechat -%}
+<li class="list-inline-item">
+  <a href="/assets/img/{{ site.social-network-links.wechat }}" title="WeChat">
+<span class="fa-stack fa-lg" aria-hidden="true">
+  <i class="fas fa-circle fa-stack-2x"></i>
+  <i class="fab fa-weixin fa-stack-1x fa-inverse"></i>
+</span>
+    <span class="sr-only">WeChat</span>
+  </a>
+</li>
+{%- endif -%}
+
 </ul>
